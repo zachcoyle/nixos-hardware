@@ -13,7 +13,7 @@
     hash = "sha256-cS3kVX68tOqJcHqCdbAw9slarjXs+yV5FWGB+UGr1DI=";
   };
 
-  version = "6.8";
+  version = "6.7.5";
   majorVersion = with lib; (elemAt (take 1 (splitVersion version)) 0);
 in
   buildLinux (args
