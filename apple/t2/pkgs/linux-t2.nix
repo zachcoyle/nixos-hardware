@@ -27,7 +27,7 @@ in
       src = runCommand "patched-source" {} ''
         cp -r ${fetchzip {
           url = "mirror://kernel/linux/kernel/v${majorVersion}.x/linux-${version}.tar.xz";
-          hash = "sha256-qJqVSju69WcvDIbgrbtMyCi+OXUNTzNX2G+/0zwsPR4=";
+          hash = "sha256-rXihZ/3ix36O/HsMlRUmsBmt1M/CEb65+3vMAqEP8fc=";
         }} $out
         chmod -R u+w $out
         cd $out
