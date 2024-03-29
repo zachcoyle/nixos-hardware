@@ -10,7 +10,7 @@
     owner = "t2linux";
     repo = "linux-t2-patches";
     rev = "bdbf6166797992774138d956c66f0382ff87adae";
-    hash = "sha256-YGGGuzsAJFtZYjIW9d2XU4eGKNvMKCaWXqgqJn5TdeY=";
+    hash = "sha256-cS3kVX68tOqJcHqCdbAw9slarjXs+yV5FWGB+UGr1DI=";
   };
 
   version = "6.8";
