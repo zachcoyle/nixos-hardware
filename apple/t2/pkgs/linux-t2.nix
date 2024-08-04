@@ -9,12 +9,12 @@ let
     owner = "t2linux";
     repo = "linux-t2-patches";
     rev = "7b0f682f0cfc97c150095a83f8d3ebaf2bc23ad8";
-    hash = "sha256-1B5DbLdyKdswy2ERmWVyjojdazTDbMsS+Vz/mrTdoFY=";
+    hash = "sha256-aaaabLdyKdswy2ERmWVyjojdazTDbMsS+Vz/mrTdoFY=";
   };
 
   kernel = fetchzip {
     url = "mirror://kernel/linux/kernel/v${majorVersion}.x/linux-${version}.tar.xz";
-    hash = "sha256-o67tasZu4qGQ7obw+BCgNfaLqDcT3SPqsa3kTzWjmfg=";
+    hash = "sha256-aaaaasZu4qGQ7obw+BCgNfaLqDcT3SPqsa3kTzWjmfg=";
   };
 in
 buildLinux (args // {
