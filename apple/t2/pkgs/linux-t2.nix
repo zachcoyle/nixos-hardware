@@ -2,13 +2,13 @@
 , ... } @ args:
 
 let
-  version = "6.9.8";
+  version = "6.10.2";
   majorVersion = with lib; (elemAt (take 1 (splitVersion version)) 0);
 
   patchRepo = fetchFromGitHub {
     owner = "t2linux";
     repo = "linux-t2-patches";
-    rev = "47b4069221c0ee3b6db56ab1ea90ae89e2de26f3";
+    rev = "7b0f682f0cfc97c150095a83f8d3ebaf2bc23ad8";
     hash = "sha256-1B5DbLdyKdswy2ERmWVyjojdazTDbMsS+Vz/mrTdoFY=";
   };
 
