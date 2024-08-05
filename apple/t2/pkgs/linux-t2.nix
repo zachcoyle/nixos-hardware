@@ -14,7 +14,7 @@ let
 
   kernel = fetchzip {
     url = "mirror://kernel/linux/kernel/v${majorVersion}.x/linux-${version}.tar.xz";
-    hash = "sha256-aBpDgqa7rPZNayA/2cgxbL8A4l4txmp6SR0Vn1tBfyE=";
+    hash = "sha256-+tWXv9j5bUJN7kzFZxuL+wB1fBCyXbtyms3Q5/dTtK4=";
   };
 in
 buildLinux (args // {
