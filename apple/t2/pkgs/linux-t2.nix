@@ -8,8 +8,8 @@ let
   patchRepo = fetchFromGitHub {
     owner = "t2linux";
     repo = "linux-t2-patches";
-    rev = "7b0f682f0cfc97c150095a83f8d3ebaf2bc23ad8";
-    hash = "sha256-9pl72wV9kF3njxXADy/ldlsd+MXap3dD8+qGJflVYuM=";
+    rev = "2502641013483669d13ea56e7b5fc6e6ec05d309";
+    hash = "sha256-aaaaawV9kF3njxXADy/ldlsd+MXap3dD8+qGJflVYuM=";
   };
 
   kernel = fetchzip {
