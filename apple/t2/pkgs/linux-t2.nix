@@ -9,7 +9,7 @@ let
     owner = "t2linux";
     repo = "linux-t2-patches";
     rev = "2502641013483669d13ea56e7b5fc6e6ec05d309";
-    hash = "sha256-aaaaawV9kF3njxXADy/ldlsd+MXap3dD8+qGJflVYuM=";
+    hash = "sha256-BuQ/4Nb3dZeoe/p5aGvVfVZjr9MFCw9oWyOp9SbS19I=";
   };
 
   kernel = fetchzip {
